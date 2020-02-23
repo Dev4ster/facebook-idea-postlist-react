@@ -1,0 +1,68 @@
+.post-list > article {
+    width: 700px;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+}
+
+
+.post-list > article .content {
+
+
+}
+.post-list > article .content .post-header {
+
+    display: flex;
+
+}
+.post-list > article .content .post-header figure {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+   
+
+}
+
+.post-list > article .content .post-header figure img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.post-list > article .content .post-header .post-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 1.4;
+}
+.post-list > article .content .post-header .post-info span {
+    font-weight: bold;
+    color: #4A4A4A;
+    display: block;
+    font-size: 14px;
+}
+.post-list > article .content .post-header .post-info small {
+    font-weight: lighter;
+    color: #9A9A9A;
+    display: block;
+    font-size: 12px;
+
+}
+
+.post-list > article .content .post-body  {
+    color: #3E3E3E;
+    font-size: 15px;
+    margin:  20px 0;
+    display: flex;
+    flex: 1;
+}
+.post-list > article .content .post-coments {
+   border-top: rgba(151, 151, 151, 0.1411764705882353) 1px solid;
+   margin-top: 20px;
+   padding-top: 20px;
+}

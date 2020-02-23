@@ -1,0 +1,7 @@
+#app main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+body{
+    background-color: #f2f2f2;
+}
